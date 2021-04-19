@@ -1,0 +1,19 @@
+@import '_colors';
+
+header {
+	padding: 1rem;
+	.logo {
+		display: flex;
+		flex-direction: column;
+		span {
+			text-align: center;
+		}
+		&__letter {
+			color: $secondary-color-2;
+			font-size: 3rem;
+		}
+		&__first-name {
+			color: white;
+		}
+	}
+}

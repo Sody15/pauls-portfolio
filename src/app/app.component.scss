@@ -1,0 +1,13 @@
+@import '_colors';
+
+#main-container {
+	display: grid;
+	grid-template-columns: minmax(100px, 10%) 1fr;
+	portfolio-header {
+		background: $secondary-color-1;
+		height: 100vh;
+	}
+	main {
+		background: $primary-color-2;
+	}
+}

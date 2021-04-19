@@ -1,0 +1,11 @@
+$font-family: 'Roboto', Arial, sans-serif;
+$font-size-base: 18px;
+
+html,
+body {
+	font: $font-size-base $font-family;
+}
+
+body {
+	margin: 0;
+}
